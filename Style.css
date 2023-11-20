@@ -115,38 +115,53 @@ button:hover {
 
 /* Profile @media Query */
 
-@media only screen and (width: 500px) {
+@media only screen and  (min-width: 300px) and (max-width: 500px) {
+    #profile{
+        height: auto;
+    }
     #profile .col img {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+    
     }
 
     #profile .col img {
         height: 50vh;
-        width: 50vh;
+        width: 30vh;
     }
-}
-
-
-@media only screen and (width: 500px) {
 
     #profile .col h4,
     h1 {
-        margin-top: 10%;
+        margin-top: 1%;
     }
 }
 
-@media only screen and (width: 500px) {
 
-    #profile .col h1 {
-        margin-left: 8%;
+
+@media only screen and  (min-width: 400px) and (max-width: 500px) {
+    #profile{
+        height: auto;
+    }
+    #profile .col img {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #profile .col img {
+        height: 50vh;
+        width: 30vh;
+    }
+
+    #profile .col h4,
+    h1 {
+        margin-top: 1%;
     }
 }
+
 
 
 /* Profile @media Query */
-
 
 
 
